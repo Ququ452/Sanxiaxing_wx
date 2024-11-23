@@ -1,0 +1,9 @@
+/* 首页样式 */
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}

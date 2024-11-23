@@ -1,0 +1,14 @@
+<!-- pages/tsvi/tsvi.wxml -->
+<view class="container">
+  <text>发车时间提醒</text>
+  <view class="notification">
+    <text>{{reminderText}}</text>
+  </view>
+  <button bindtap="fetchNotification">获取最新通知</button>
+</view>
+
+
+
+
+
+

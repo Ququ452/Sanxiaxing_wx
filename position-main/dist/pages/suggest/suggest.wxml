@@ -1,0 +1,9 @@
+<!-- pages/feedback/feedback.wxml -->
+<view class="container">
+  <text class="title">意见反馈</text>
+  <textarea class="feedback-input" placeholder="请告诉我们您的意见和建议..." bindinput="onInput" maxlength="500"></textarea>
+  <button class="submit-button" bindtap="submitFeedback">提交反馈</button>
+</view>
+
+
+

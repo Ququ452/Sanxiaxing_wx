@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/firstindex/firstindex",
+    "pages/agreement/agreement",
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/yshu/yshu",
+    "pages/history/history",
+    "pages/query/query",
+    "pages/tsvi/tsvi",
+    "pages/suggest/suggest"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",   
+    "navigationBarTitleText": "三峡行",       
+    "navigationBarTextStyle": "black"         
+  },
+  "sitemapLocation": "sitemap.json"
+}

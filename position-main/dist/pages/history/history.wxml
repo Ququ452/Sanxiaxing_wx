@@ -1,0 +1,12 @@
+<view class="container">
+  <text class="title">添加报站记录</text>
+  <input placeholder="用户ID" bindinput="inputUserId" />
+  <input placeholder="站点名称" bindinput="inputStationName" />
+  <input placeholder="时间戳 (YYYY-MM-DD HH:MM)" bindinput="inputTimestamp" />
+  <button bindtap="addRecord">添加记录</button>
+</view>
+
+
+
+
+

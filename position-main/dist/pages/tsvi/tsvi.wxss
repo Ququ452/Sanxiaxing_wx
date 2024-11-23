@@ -1,0 +1,15 @@
+/* pages/tsvi/tsvi.wxss */
+.container {
+  padding: 20px;
+}
+
+.notification {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+}

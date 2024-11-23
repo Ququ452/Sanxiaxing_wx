@@ -1,0 +1,20 @@
+<view class="container">
+  <map class="map" id="map"></map>
+  <view>
+    <picker mode="selector" range="{{stations}}" bindchange="onStationChange">
+      <view>{{selectedStation ? selectedStation.text1 : '请选择站点'}}</view>
+    </picker>
+
+    <view>
+      <block wx:for="{{stations}}" wx:key="id">
+        <view>
+          <image src="{{item.img_url}}" alt="{{item.text1}}" />
+          <text>{{item.text1}}</text>
+        </view>
+      </block>
+    </view>
+
+    <view class="station-picker">{{selectedStation ? selectedStation : '未选择站点'}}</view>
+  </view>
+  <button bindtap="submitRequest">提交等车请求</button>
+</view>

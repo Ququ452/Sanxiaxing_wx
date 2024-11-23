@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+<navigator class="menu" url="/pages/yshu/yshu" >
+  <label class="fa fa-map-marker" style="color: #32CD32"></label>
+  <view>用户报站</view>
+</navigator>
+<navigator class="menu" url="/pages/index/index">
+  <label class="fa fa-bus" style="color: #d6c766"></label>
+  <view>校车追踪</view>
+</navigator>
+<navigator class="menu" url="/pages/tsvi/tsvi">
+  <label class="fa fa-superpowers" style="color: #96c4d5"></label>
+  <view>通知提醒</view>
+</navigator>
+<navigator class="menu">
+  <label class="fa fa-openid" style="color: #7e8eab"></label>
+  <view>实时反馈</view>
+</navigator>
+<navigator class="menu" url="/pages/history/history">
+  <label class="fa fa-book" style="color: #e9001d"></label>
+  <view>历史记录</view>
+</navigator>
+<navigator class="menu" url="/pages/suggest/suggest">
+  <label class="fa fa-comment" style="color: #778899"></label>
+  <view>意见反馈</view>
+</navigator>
+</view>
